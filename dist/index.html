@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <i class="fa-solid fa-list-check"></i>
+        <h1>Todo List</h1>
+    </header>
+    <main>
+        <nav>
+            <div id="inbox-tab" class="filter-tab">
+                <i class="fa-solid fa-inbox"></i>
+                <p>Inbox</p>
+            </div>
+            <div class="filter-tab">
+                <i class="fa-solid fa-star"></i>
+                <p>Today</p>
+            </div>
+            <div class="filter-tab">
+                <i class="fa-solid fa-calendar-days"></i>
+                <p>Upcoming</p>
+            </div>
+            <div class="filter-tab">
+                <i class="fa-solid fa-book"></i>
+                <p>Logbook</p>
+            </div>
+            <div>
+                <h1 id="projects-nav">Projects</h1>
+            </div>
+            <div id="add-project-btn" class="filter-tab">
+                <i class="fa-solid fa-plus"></i>
+                <p>Add Project</p>
+            </div>
+        </nav>
+        <div id="todo-list" class="todo-list">
+            <h1 id="current-tab">Inbox</h1>
+            <div id="add-to-do" class="add-to-do">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright © 2021 Ben Chanapai</p>
+        <i class="fab fa-github"></i>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
